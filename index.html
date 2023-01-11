@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script defer src="app.js"></script>
+    <style>
+      body {
+        background-color: black;
+        color: #ffff;
+        padding: 0;
+        margin: 0;
+        max-height: 80vh;
+      }
+
+      main {
+        display: grid;
+        place-items: center;
+        height: 667px;
+        width: 1366px;
+        position: relative;
+      }
+      #eyes,
+      #eyes img {
+        object-fit: contain;
+        width: 53px;
+        height: 50px;
+        position: absolute;
+      }
+
+      #anchor {
+        object-fit: contain;
+        height: 667px;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <img
+        id="anchor"
+        src="OpenYourEyesMortyEdited.png"
+        alt="Open Your Eyes, Morty"
+      />
+      <div id="eyes">
+        <img
+          class="eye"
+          src="EyeBall.png"
+          alt="Eye Ball"
+          style="top: 115px; right: 135px"
+        />
+        <img
+          class="eye"
+          src="EyeBall.png"
+          alt="Eye Ball"
+          style="top: 100px; right: 40px"
+        />
+        <img
+          class="eye"
+          src="EyeBall.png"
+          alt="Eye Ball"
+          style="top: -95px; right: -80px"
+        />
+        <img
+          class="eye"
+          src="EyeBall.png"
+          alt="Eye Ball"
+          style="top: -95px; right: -170px"
+        />
+      </div>
+    </main>
+  </body>
+</html>
